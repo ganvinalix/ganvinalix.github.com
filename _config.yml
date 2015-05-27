@@ -74,3 +74,8 @@ weibo_user: ganvinalix # 微博数字 ID 或域名 ID
 dribbble_user: 
 weibo_share: true # 是否开启微博分享按钮
 
+#Disqus comments
+disqus_short_name: ganvinalix
+disqus_show_comment_count: true
+
+
