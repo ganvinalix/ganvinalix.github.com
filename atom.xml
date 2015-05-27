@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://ganvinalix.github.io/atom.xml" rel="self"/>
   <link href="http://ganvinalix.github.io/"/>
-  <updated>2015-05-27T21:33:30+08:00</updated>
+  <updated>2015-05-27T21:47:10+08:00</updated>
   <id>http://ganvinalix.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,12 @@
     <link href="http://ganvinalix.github.io/blog/2015/05/27/mytitle/"/>
     <updated>2015-05-27T21:31:00+08:00</updated>
     <id>http://ganvinalix.github.io/blog/2015/05/27/mytitle</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<table>
+<tr>
+<td>Foo</td>
+</tr>
+</table>
+
 ]]></content>
   </entry>
   
