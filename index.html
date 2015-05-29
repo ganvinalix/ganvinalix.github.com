@@ -7,8 +7,8 @@
 	<meta name="author" content="ganvinalix">
 
 	
-	<meta name="description" content=" Comments 第一篇博客 segmentfault.com/a/1190000000364677 Blog Archives
-">
+	<meta name="description" content="Comments Mytitle 推荐博客 网址：http://segmentfault.com/a/1190000000364677 更换ruby源 gem经常很慢，或者被墙，可以替换成taobao的源进行解决
+$ gem sources &ndash;remove http:// &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -94,7 +94,7 @@
   
 
 
-<time datetime="2015-05-27T21:31:00+08:00" data-updated="true" itemprop="datePublished"></time></div>
+<time datetime="2015-05-27T00:00:00+08:00" data-updated="true" itemprop="datePublished"></time></div>
 		<div class="tags">
 
 </div>
@@ -102,14 +102,36 @@
 			<span class="comments"><a href="/blog/2015/05/27/mytitle/#disqus_thread">Comments</a></span>
 		
 	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/05/27/mytitle/" itemprop="url">第一篇博客</a></h1>
+	<h1 class="title" itemprop="name"><a href="/blog/2015/05/27/mytitle/" itemprop="url">Mytitle</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		<table>
-<tr>
-<td>segmentfault.com/a/1190000000364677</td>
-</tr>
-</table>
+		<h1>推荐博客</h1>
 
+<p>网址：<a href="http://segmentfault.com/a/1190000000364677">http://segmentfault.com/a/1190000000364677</a></p>
+
+<h1>更换ruby源</h1>
+
+<p>gem经常很慢，或者被墙，可以替换成taobao的源进行解决
+$ gem sources &ndash;remove <a href="http://rubygems.org/">http://rubygems.org/</a><br/>
+$ gem sources -a <a href="http://ruby.taobao.org/">http://ruby.taobao.org/</a><br/>
+$ gem sources -l<br/>
+ CURRENT SOURCES
+  <a href="http://ruby.taobao.org">http://ruby.taobao.org</a><br/>
+<strong>请确保只有</strong> ruby.taobao.org<br/>
+如此还不行，请在Octopress目录下找到gemfile（gem将要安装的一些程序）使用VI命令或者文本编辑器把<a href="http://rubygems.org/%E4%B9%9F%E6%9B%BF%E6%8D%A2%E6%88%90http://ruby.taobao.org/">http://rubygems.org/%E4%B9%9F%E6%9B%BF%E6%8D%A2%E6%88%90http://ruby.taobao.org/</a></p>
+
+<h1>删除Octopress源代码中被墙的网址使用</h1>
+
+<p>如facebook,如twitter，之类。这些会有可能会在我们访问自己博客的时候被访问从而影响我们博客的加载速度甚至导致部署后访问不了。罪魁祸首就是GFW.
+位置在：config.yml; /source/_includes/custom/head.html;
+如果你不小心文件删除head.html，而部署了.头文件已经加载到不同的方的head.html中了，需要全局查找使用过google api的head.html不逐一把他们删除</p>
+
+<h1>把自己的微博放入博客</h1>
+
+<p>需要设置自己的个性域名；在微博设置->账号设置里面就可以看到个性域名的设了。</p>
+
+<h1>评论插件Disqus的安装</h1>
+
+<p>填入注册disqus测后，也有类似微博个性域名的要设置，这个并不是你的登入账号，而是单独在disqus网站申请的！</p>
 
 		
 		
