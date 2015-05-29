@@ -4,7 +4,7 @@
   <title><![CDATA[冷无痕的程序人生]]></title>
   <link href="http://ganvinalix.github.io/atom.xml" rel="self"/>
   <link href="http://ganvinalix.github.io/"/>
-  <updated>2015-05-29T22:40:33+08:00</updated>
+  <updated>2015-05-29T22:43:54+08:00</updated>
   <id>http://ganvinalix.github.io/</id>
   <author>
     <name><![CDATA[ganvinalix]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Mytitle]]></title>
-    <link href="http://ganvinalix.github.io/blog/2015/05/27/mytitle/"/>
+    <title type="html"><![CDATA[Octopress+github搭建个人博客注意点]]></title>
+    <link href="http://ganvinalix.github.io/blog/2015/05/27/Octopress+gitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E7%82%B9/"/>
     <updated>2015-05-27T00:00:00+08:00</updated>
-    <id>http://ganvinalix.github.io/blog/2015/05/27/mytitle</id>
+    <id>http://ganvinalix.github.io/blog/2015/05/27/Octopress+gitHub搭建个人博客注意点</id>
     <content type="html"><![CDATA[<h1>推荐博客</h1>
 
 <p>网址：<a href="http://segmentfault.com/a/1190000000364677">http://segmentfault.com/a/1190000000364677</a></p>
