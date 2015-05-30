@@ -3,11 +3,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Blog Archives - 冷无痕的程序人生</title>
+	<title>UIWindow 之小记 - 冷无痕的程序人生</title>
 	<meta name="author" content="ganvinalix">
 
 	
-	<meta name="description" content=" 2015 May 30 Comments UIWindow 之小记 May 29 Comments 相对全面的Markdown格式样例 May 27 Octopress+github搭建个人博客注意点 ">
+	<meta name="description" content="UIWindow 之小记 UIWindow的level UIWindowLevel 是控制window显示层级的关键，level的值设置的越高，那么其展示的越定层 UIWindow的keyWindow keyWindow,是和系统交互的，如接收键盘和其他费触摸事件等
+， &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -17,7 +18,7 @@
 
 	<link href="/atom.xml" rel="alternate" title="冷无痕的程序人生" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://ganvinalix.github.io/blog/archives/">
+	<link rel="canonical" href="http://ganvinalix.github.io/blog/2015/05/30/uiwindow-zhi-xiao-ji/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	
@@ -78,63 +79,43 @@
 				
 			
 			<div class="mid-col-container">
-				<div id="content" class="inner"><div itemscope itemtype="http://schema.org/Blog">
+				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<h1 class="title" itemprop="name">UIWindow 之小记</h1>
+	<div class="entry-content" itemprop="articleBody"><h1>UIWindow的level</h1>
 
-	
+<p>UIWindowLevel 是控制window显示层级的关键，level的值设置的越高，那么其展示的越定层</p>
 
+<h1>UIWindow的keyWindow</h1>
 
-	
-	
-	<section class="archives"><h1 class="year">2015</h1>
+<p>keyWindow,是和系统交互的，如接收键盘和其他费触摸事件等
+，原则上是只有一个window与用户交互，但不代表就只存在一个window。Alert也是一个window。我们可以设置makeKeyWindow或者resinKeyWindow方法来将自己创建的window设置成为一个keyWindow。</p>
+</div>
 
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2015-05-30T10:41:18+08:00" itemprop="datePublished">May 30</time></span>
-		<br>
-		<span class="tags">
-
-</span>
-	    
-	    <span class="comments"><a href="/blog/2015/05/30/uiwindow-zhi-xiao-ji/#disqus_thread">Comments</a></span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/05/30/uiwindow-zhi-xiao-ji/">UIWindow 之小记</a></h1>
 </article>
 
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
 	
-
-
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2015-05-29T22:48:01+08:00" itemprop="datePublished">May 29</time></span>
-		<br>
-		<span class="tags">
-
-</span>
-	    
-	    <span class="comments"><a href="/blog/2015/05/29/xiang-dui-quan-mian-de-markdownge-shi-yang-li/#disqus_thread">Comments</a></span>
-	    
-	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/05/29/xiang-dui-quan-mian-de-markdownge-shi-yang-li/">相对全面的Markdown格式样例</a></h1>
-</article>
-
+	<a class="addthis_button_sinaweibo"></a>
 	
-
-
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-	<div class="meta">
-		<span class="date"><time datetime="2015-05-27T00:00:00+08:00" itemprop="datePublished">May 27</time></span>
-		<br>
-		<span class="tags">
-
-</span>
-	    
+	
+	
+	
+	
+	<a class="addthis_button_compact"></a>
+	<a class="addthis_counter addthis_bubble_style"></a>
 	</div>
-	<h1 class="title" itemprop="name"><a href="/blog/2015/05/27/Octopress+gitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E7%82%B9/">Octopress+github搭建个人博客注意点</a></h1>
-</article>
+  <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid="></script>
+</div>
 
-  </section>
-</div></div>
+
+
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
 			</div>
 			<footer id="footer" class="inner"><p>
   Copyright &copy; 2015 - ganvinalix -
@@ -155,7 +136,10 @@ Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Sha
       var disqus_shortname = 'ganvinalix';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://ganvinalix.github.io/blog/2015/05/30/uiwindow-zhi-xiao-ji/';
+        var disqus_url = 'http://ganvinalix.github.io/blog/2015/05/30/uiwindow-zhi-xiao-ji/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
