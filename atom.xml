@@ -4,7 +4,7 @@
   <title><![CDATA[冷无痕的程序人生]]></title>
   <link href="http://ganvinalix.github.io/atom.xml" rel="self"/>
   <link href="http://ganvinalix.github.io/"/>
-  <updated>2015-05-30T10:49:00+08:00</updated>
+  <updated>2015-05-30T10:54:44+08:00</updated>
   <id>http://ganvinalix.github.io/</id>
   <author>
     <name><![CDATA[ganvinalix]]></name>
@@ -12,6 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[github+octopress之小记]]></title>
+    <link href="http://ganvinalix.github.io/blog/2015/05/30/github-plus-octopresszhi-xiao-ji/"/>
+    <updated>2015-05-30T10:54:14+08:00</updated>
+    <id>http://ganvinalix.github.io/blog/2015/05/30/github-plus-octopresszhi-xiao-ji</id>
+    <content type="html"><![CDATA[<h1>Octopress+gitHub搭建个人博客注意点</h1>
+
+<h1>推荐博客</h1>
+
+<p>网址：<a href="http://segmentfault.com/a/1190000000364677">http://segmentfault.com/a/1190000000364677</a></p>
+
+<h1>更换ruby源</h1>
+
+<p>gem经常很慢，或者被墙，可以替换成taobao的源进行解决
+$ gem sources &ndash;remove <a href="http://rubygems.org/">http://rubygems.org/</a><br/>
+$ gem sources -a <a href="http://ruby.taobao.org/">http://ruby.taobao.org/</a><br/>
+$ gem sources -l<br/>
+ CURRENT SOURCES
+  <a href="http://ruby.taobao.org">http://ruby.taobao.org</a><br/>
+<strong>请确保只有</strong> ruby.taobao.org<br/>
+如此还不行，请在Octopress目录下找到gemfile（gem将要安装的一些程序）使用VI命令或者文本编辑器把<a href="http://rubygems.org/%E4%B9%9F%E6%9B%BF%E6%8D%A2%E6%88%90http://ruby.taobao.org/">http://rubygems.org/%E4%B9%9F%E6%9B%BF%E6%8D%A2%E6%88%90http://ruby.taobao.org/</a></p>
+
+<h1>删除Octopress源代码中被墙的网址使用</h1>
+
+<p>如facebook,如twitter，之类。这些会有可能会在我们访问自己博客的时候被访问从而影响我们博客的加载速度甚至导致部署后访问不了。罪魁祸首就是GFW.
+位置在：config.yml; /source/_includes/custom/head.html;
+如果你不小心文件删除head.html，而部署了.头文件已经加载到不同的方的head.html中了，需要全局查找使用过google api的head.html不逐一把他们删除</p>
+
+<h1>把自己的微博放入博客</h1>
+
+<p>需要设置自己的个性域名；在微博设置->账号设置里面就可以看到个性域名的设了。</p>
+
+<h1>评论插件Disqus的安装</h1>
+
+<p>填入注册disqus测后，也有类似微博个性域名的要设置，这个并不是你的登入账号，而是单独在disqus网站申请的！</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[UIWindow 之小记]]></title>
@@ -59,7 +97,7 @@ Like, seriously, a <em>LOT</em> of text</strong></p>
 
 <h4>Links and Email</h4>
 
-<p>An email <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#x6f;&#x3a;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#99;&#x6f;&#x6d;">&#x65;&#x78;&#x61;&#109;&#x70;&#108;&#x65;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;</a> link.</p>
+<p>An email <a href="&#109;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#x63;&#111;&#109;">&#101;&#120;&#97;&#109;&#x70;&#108;&#101;&#64;&#101;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;</a> link.</p>
 
 <p>Simple inline link <a href="http://chenluois.com">http://chenluois.com</a>, another inline link <a href="http://25.io/smaller/">Smaller</a>, one more inline link with title <a href="http://resizesafari.com" title="a Safari extension">Resize</a>.</p>
 
@@ -351,44 +389,6 @@ Above line ended with 2 spaces.</p>
 </ol>
 </div>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress+github搭建个人博客注意点]]></title>
-    <link href="http://ganvinalix.github.io/blog/2015/05/27/Octopress+gitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E7%82%B9/"/>
-    <updated>2015-05-27T00:00:00+08:00</updated>
-    <id>http://ganvinalix.github.io/blog/2015/05/27/Octopress+gitHub搭建个人博客注意点</id>
-    <content type="html"><![CDATA[<h1>Octopress+gitHub搭建个人博客注意点</h1>
-
-<h1>推荐博客</h1>
-
-<p>网址：<a href="http://segmentfault.com/a/1190000000364677">http://segmentfault.com/a/1190000000364677</a></p>
-
-<h1>更换ruby源</h1>
-
-<p>gem经常很慢，或者被墙，可以替换成taobao的源进行解决
-$ gem sources &ndash;remove <a href="http://rubygems.org/">http://rubygems.org/</a><br/>
-$ gem sources -a <a href="http://ruby.taobao.org/">http://ruby.taobao.org/</a><br/>
-$ gem sources -l<br/>
- CURRENT SOURCES
-  <a href="http://ruby.taobao.org">http://ruby.taobao.org</a><br/>
-<strong>请确保只有</strong> ruby.taobao.org<br/>
-如此还不行，请在Octopress目录下找到gemfile（gem将要安装的一些程序）使用VI命令或者文本编辑器把<a href="http://rubygems.org/%E4%B9%9F%E6%9B%BF%E6%8D%A2%E6%88%90http://ruby.taobao.org/">http://rubygems.org/%E4%B9%9F%E6%9B%BF%E6%8D%A2%E6%88%90http://ruby.taobao.org/</a></p>
-
-<h1>删除Octopress源代码中被墙的网址使用</h1>
-
-<p>如facebook,如twitter，之类。这些会有可能会在我们访问自己博客的时候被访问从而影响我们博客的加载速度甚至导致部署后访问不了。罪魁祸首就是GFW.
-位置在：config.yml; /source/_includes/custom/head.html;
-如果你不小心文件删除head.html，而部署了.头文件已经加载到不同的方的head.html中了，需要全局查找使用过google api的head.html不逐一把他们删除</p>
-
-<h1>把自己的微博放入博客</h1>
-
-<p>需要设置自己的个性域名；在微博设置->账号设置里面就可以看到个性域名的设了。</p>
-
-<h1>评论插件Disqus的安装</h1>
-
-<p>填入注册disqus测后，也有类似微博个性域名的要设置，这个并不是你的登入账号，而是单独在disqus网站申请的！</p>
 ]]></content>
   </entry>
   
