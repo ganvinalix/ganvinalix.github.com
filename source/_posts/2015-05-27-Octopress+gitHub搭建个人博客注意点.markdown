@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Octopress+gitHub搭建个人博客注意点”
+title: "Octopress+gitHub”
 date: 2015-05-27 21:31:00 +0800
 comments: true
 categories: 
 ---
+# Octopress+gitHub搭建个人博客注意点
+
 # 推荐博客
 网址：<http://segmentfault.com/a/1190000000364677>
 
