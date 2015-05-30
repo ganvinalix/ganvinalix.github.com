@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Octopress+gitHub”
-date: 2015-05-27 21:31:00 +0800
+title: "github+octopress之小记"
+date: 2015-05-30 10:54:14 +0800
 comments: true
 categories: 
 ---
